@@ -19,15 +19,15 @@
 
 	<profiles>
 		<profile>
-			<id>spring-deploy</id>
+			<id>my-app-deploy</id>
 			<distributionManagement>
 				<repository>
-					<id>spring-releases</id>
+					<id>my-app-releases</id>
 					<name>spring-releases</name>
 					<url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-releases/</url>
 				</repository>
 				<snapshotRepository>
-					<id>spring-snapshots</id>
+					<id>my-app-snapshots</id>
 					<name>spring-snapshots</name>
 					<url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-snapshots/</url>
 				</snapshotRepository>
