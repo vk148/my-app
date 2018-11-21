@@ -13,7 +13,7 @@
 		<repository>
 			<id>my-repo2</id>
 			<name>public</name>
-			<url>http://13.233.123.48:8081/nexus/content/groups/public/</url>
+			<url>http://13.127.162.83:8081/nexus/content/groups/public/</url>
 		</repository>
 		<repository>
 			<id>my-repo1</id>
@@ -39,12 +39,12 @@
 				<repository>
 					<id>my-app-releases</id>
 					<name>my-app-releases</name>
-					<url>http://13.233.123.48:8081/nexus/content/repositories/my-app-releases/</url>
+					<url>http://13.127.162.83:8081/nexus/content/repositories/my-app-releases/</url>
 				</repository>
 				<snapshotRepository>
 					<id>my-app-snapshots</id>
 					<name>my-app-snapshots</name>
-					<url>http://13.233.123.48:8081/nexus/content/repositories/my-app-snapshots/</url>
+					<url>http://13.127.162.83:8081/nexus/content/repositories/my-app-snapshots/</url>
 				</snapshotRepository>
 			</distributionManagement>
 		</profile>
